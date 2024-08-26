@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home | Netflix</title>
+    <link rel="stylesheet" href="home.css" />
+    <link rel="shortcut icon" href="https://assets.nflxext.com/ffe/siteui/common/icons/nficon2016.ico">
+    <script src="home.js" defer></script>
+    <script>
+        function alertmsg(){
+            alert("Coming Soon!!!")
+        }
+    </script>
+</head>
+
+<body>
+    <!--NAVBAR-->
+    <div class="nav">
+        <div class="nav__left">
+            <a href="home.html"><img src="./images/logo.png" class="nav_logo" alt="Netflix Logo"></a>
+            <a href onclick="alertmsg()">Home</a>
+            <a href onclick="alertmsg()">TV Shows</a>
+            <a href onclick="alertmsg()">Movies</a>
+            <a href onclick="alertmsg()">New & Popular</a>
+            <a href onclick="alertmsg()">My List</a>
+            <a href onclick="alertmsg()">Browse by Languages</a>
+        </div>
+        <div class="nav__right">
+            <a href onclick="alertmsg()"><img src="./images/avatar.png" class="nav_avatar" alt="User Avatar"></a>
+        </div>
+    </div>
+
+    <!--BANNER-->
+    <header id="banner">
+        <div id="banner__contents">
+            <h1 id="banner__title"></h1>
+            <div id="banner__buttons">
+                <button class="banner__button" onclick="alertmsg()">Play</button>
+                <button class="banner__button" onclick="alertmsg()">More Info</button>
+            </div>
+            <p id="banner__description"></p>
+        </div>
+    </header>
+
+    <!--ROW-->
+    <div id="headrow">
+        <!-- Movie rows will be dynamically added here -->
+    </div>
+
+    <!--FOOTER-->
+    <footer class="footer">
+        <div class="footer__links">
+            <p>Questions? Call 000-800-040-1843</p>
+            <div class="footer__row">
+                <a href="#">FAQ</a>
+                <a href="#">Help Centre</a>
+                <a href="#">Account</a>
+                <a href="#">Media Centre</a>
+            </div>
+            <div class="footer__row">
+                <a href="#">Investor Relations</a>
+                <a href="#">Jobs</a>
+                <a href="#">Ways to Watch</a>
+                <a href="#">Corporate Information</a>
+            </div>
+            <div class="footer__row">
+                <a href="#">Terms of Use</a>
+                <a href="#">Privacy</a>
+                <a href="#">Cookie Preferences</a>
+                <a href="#">Legal Notices</a>
+            </div>
+        </div>
+        <p class="footer__copy">&copy; 2024 Netflix, Inc.</p>
+    </footer>
+
+</body>
+
+</html>
